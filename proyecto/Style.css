@@ -128,3 +128,14 @@
 .columns{
     columns: 2;
 }
+
+.custom-button {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.custom-button img {
+  width: 32px; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: auto; /* Ajusta la altura de la imagen según tus necesidades */
+}
