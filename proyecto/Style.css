@@ -67,11 +67,11 @@
   }
 
   .btn-categoria {
-    height: 90px;
-    width: 50px;
+    height: 70px;
+    width: 200px;
     border-radius: 1000px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    padding: 10px; 
+    padding: 5px 10px; 
     margin: 20px;
   }
   .btn-categoria:hover{
@@ -103,31 +103,52 @@
   }
   
   
-  /*botones*/
-  .btn-inicio{
-    padding:5px;
-    background-color: #B2DF8A;
-    border: none;
-    border-radius: 20px;
-    margin:5%;
-    padding: 3%;
-  }
-  .btn-inicio:hover{
-   background-color: #87CEEB
-  }
-  .btn-inicio2{
-    background-color: none;
-    border:none;
-    text-decoration: underline;
-  }
+    /*botones*/
+    .btn-inicio {
+        padding: 5px;
+        background-color: #B2DF8A;
+        border: none;
+        border-radius: 20px;
+        margin: 5%;
+        padding: 3%;
+    }
 
-/*titulos*/
-  .Title, .sub-title{
-    text-align: center;
-  }
-.columns{
-    columns: 2;
-}
+    .btn-inicio:hover {
+        background-color: #87CEEB
+    }
+
+    .btn-inicio2 {
+        background-color: none;
+        border: none;
+        text-decoration: underline;
+    }
+
+    .next {
+        position: fixed;
+        bottom: 80px;
+        right: 80px;
+        padding: 5px;
+        align-items: center;
+        display: block;
+        height: 80px;
+        width: 80px;
+    }
+
+    .next img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /*titulos*/
+    .Title,
+    .sub-title {
+        text-align: center;
+    }
+
+    .columns {
+        columns: 2;
+    }
+
 
 .custom-button {
   position: relative;
